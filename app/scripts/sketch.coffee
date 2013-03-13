@@ -7,14 +7,6 @@ Array::shuffle = -> @sort -> 0.5 - Math.random()
 
 paper = Raphael(0, 0, width, 960);
 
-# Creates circle at x = 50, y = 40, with radius 10
-# circle = paper.circle(50, 40, 10);
-#Sets the fill attribute of the circle to red (#f00)
-# circle.attr("fill", "#f00");
-
-# Sets the stroke attribute of the circle to white
-# circle.attr("stroke", "#fff");
-
 class Box
   constructor: (@height, @width, @startX, @startY, @parent) ->
     @draw()
@@ -26,8 +18,6 @@ class Box
 
 class Row
   constructor: (@height, @start) ->
-    # console.log  @
-    # @debug()
     @draw()
 
   debug: ->
@@ -38,7 +28,6 @@ class Row
     rect.attr 'stroke-width', 1
 
   draw: ->
-    # console.log @
     for i in [0..paper.width] by @height
       new Box @height, @height, i, @start, @
 
