@@ -5,65 +5,12 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>Mondrian</title>
-  <style type="text/css">
-    body {
-      background: #000000;
-      font-family: Arial;
-      font-size: 12px;
-      color: #bbb;
-      text-align: center;
-      line-height: 16px;
-    }
-    a {
-      color: #bbb;
-      margin: 0; padding: 0;
-    }
-    a img {
-      border: 0;
-      margin: 0;
-      padding: 0;
-    }
-    #container {
-      width: 734px;
-      margin: 0 auto;
-      margin-top: 20px;
-      text-align: center;
-    }
-    #the_applet {
-      margin: 0 auto;
-      width: 720px;
-      padding: 6px;
-      padding-top: 7px; padding-bottom: 2px;
-      background: #262626 url(images/top.png) top left repeat-x;
-      border: 1px solid #363636; border-top: 0;
-    }
-    #built_with {
-      width: 150px;
-      margin: 0 auto;
-      margin-top: 30px;
-      padding: 0;
-    }
-    #description {
-      font-size: 12px;
-      width: 704px;
-      padding: 7px 15px 7px 15px;
-      background: #111;
-      margin: 0 auto;
-      margin-top: 30px; margin-bottom: 10px;
-      border: 1px solid #363636;
-    }
-      #description h1 {
-        font-size: 18px;
-        font-weight: normal;
-        color: #999;
-        font-variant: small-caps;
-        text-align: center;
-      }
-  </style>
+          <link rel="stylesheet" href="../styles/main.css">
+
 </head>
 
 <body>
-<div id="container">
+<body class="stijl">
 
   <div id="the_applet">
     <object
@@ -82,22 +29,20 @@
       <param name="scriptable" value="true" />
       <param name="progressbar" value="true" />
 
-      
+
 
       <!-- And if you don't have java.  -->
       To view this content, you need to install Java from <a href="http://java.com">java.com</a>
     </object>
   </div>
 
-  <div id="built_with">
-    <a href="http://wiki.github.com/jashkenas/ruby-processing">
-      <img src="images/built_with.jpg" alt="Ruby-Processing" />
-    </a>
-      Via <a href="http://jruby.org/">JRuby</a> and <a href="http://processing.org/">Processing</a><br />
-      Source: <a href="mondrian.rb">mondrian.rb</a>
+  <div class="infobox">
+    <h1>de stijl alt</h1>
+    <p>I was working on some algorithmic artwork. Move your mouse & click around. The <a href="../">main</a> version is in CoffeeScript; this is in Ruby-Processing which isn’t great for the web.</p>
+    <p><a class="blue" href="http://github.com/jongd/stijl">Sauce</a> is on GitHub, <a class="yellow" href="http://twitter.com/jongold">I’m</a> on Twitter.</p>
+    <p>2012/13 @jongold</p>
   </div>
 
-  
 
 </div>
 </body>
