@@ -1,2 +1,0 @@
-
-org.jruby.Main lib/ruby-processing/runners/run.rb lib/mondrian.rb
